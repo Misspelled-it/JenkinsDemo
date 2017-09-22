@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="first.testNG.example.TestNGDemo">
+        <methods>
+          <include name="afterEachMethod"/>
+          <include name="beforeEachMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTesting"/>
+        </methods>
+      </class> <!-- first.testNG.example.TestNGDemo -->
+      <class name="first.testNG.example.TestNGMoreDemo">
+        <methods>
+          <include name="secondTest"/>
+        </methods>
+      </class> <!-- first.testNG.example.TestNGMoreDemo -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
